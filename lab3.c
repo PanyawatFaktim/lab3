@@ -12,22 +12,26 @@ int main() {
 				
 				if(a>=80){
 					
-					printf("A");
+					printf("A\n");
 				}
 			else{
-				printf("B");
+				printf("B\n");
+				printf("%d more to get B",80-a);
 			}	
 			}
 		else{
-			printf("C");
+			printf("C\n");
+			printf("%d more to get B",70-a);
 		}
 		}
 		else{
-			printf("D");
+			printf("D\n");
+			printf("%d more to get B",60-a);
 		} 
 	}
 	else{
-		printf("F");
+		printf("F\n");
+		printf("%d more to get D",50-a);
 	}
 	return 0;
 }
